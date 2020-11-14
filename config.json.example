@@ -1,0 +1,13 @@
+{
+	"CODAPI": {
+		"email": "",
+		"pass": ""
+	},
+	
+	"wargaming": {
+		"applicationId": ""
+	},
+	
+	"bungieapi" : ""
+
+}
