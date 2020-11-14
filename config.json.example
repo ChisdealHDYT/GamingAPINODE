@@ -8,6 +8,7 @@
 		"applicationId": ""
 	},
 	
-	"bungieapi" : ""
+	"bungieapi" : "",
+	"apexAPI": ""
 
 }
