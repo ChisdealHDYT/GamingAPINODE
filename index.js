@@ -47,7 +47,7 @@ app.get('/v1/apex/:plat/:username', function(req, res) {
 	res.contentType('application/json');
 	
 	const Apex = require('apex-api');
-    const apex = new Apex('ef58b503-4ae3-4ecc-ab7d-88488b76fd38');
+    const apex = new Apex(config.apexAPI);
  
     apex.user(username, plat).then(data => {
         res.send(data.data)
